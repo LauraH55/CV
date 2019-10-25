@@ -1,11 +1,25 @@
 body {
   margin-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
 }
 
 .btn-pink {
   background-color: pink;
 }
 
-h2 {
-color : pink;
+#titre {
+  margin-top: 25px;
+}
+
+.design {
+  color: pink;
+}
+
+.info {
+  font-family: 'Courgette', cursive;
 }
