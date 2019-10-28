@@ -23,3 +23,7 @@ h2 {
 .info {
   font-family: 'Courgette', cursive;
 }
+
+.page-footer .fab {
+  color: pink;
+}
