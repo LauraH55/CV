@@ -1,3 +1,6 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
+  $("#info").click(function(){
+      ("Bonjour")
+      $(this).css('color', 'black')
+  })
 });
