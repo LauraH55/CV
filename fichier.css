@@ -27,3 +27,26 @@ h2 {
 .page-footer .fab {
   color: pink;
 }
+
+.page-footer {
+  margin: 0;
+  padding: 1.5rem;
+
+
+}
+
+
+.socialIcons li{
+  display: inline;
+  font-style: italic;
+  margin-left: -25px;
+}
+
+.socialIcons li a em{
+  color: #020202;
+  font-family: 'Open sans';
+}
+
+.socialIcons li a em:hover {
+  color:pink;
+}
