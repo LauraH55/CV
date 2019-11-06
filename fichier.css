@@ -35,22 +35,6 @@ h2 {
 
 }
 
-
-.socialIcons li{
-  display: inline;
-  font-style: italic;
-  margin-left: -25px;
-}
-
-.socialIcons li a em{
-  color: #020202;
-  font-family: 'Open sans';
-}
-
-.socialIcons li a em:hover {
-  color:pink;
-}
-
 .material-icons{
 margin-left: -30px;
 position: absolute;
@@ -61,4 +45,9 @@ margin-top: 3px;
 
 .fa-linkedin {
   margin-right: 0.5rem;
+}
+
+.print
+{
+  margin-left: 3rem;
 }
