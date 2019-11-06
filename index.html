@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="fichier.css">
   </head>
   <body>
@@ -21,7 +22,26 @@
               <h5>Recherche de stage</h5>
             </div>
             <div class="col-md-3">
-              <button id="info" type="button" class="btn btn-pink btn-lg ">Contactez-moi</button>
+              <button type="button" class="btn btn-pink btn-lg" data-toggle="modal" data-target="#ContactModalCenter">
+                Contactez-moi
+              </button>
+              <div class="modal fade" id="ContactModalCenter" tabindex="-1" role="dialog" aria-labelledby="ContactModalCenter" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ContactModalCenter">Mes coordonnées</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <a type="button" <a href="mailto:laurahantz54@gmail.com" class="btn btn-pink btn-lg btn-block"><i class="material-icons">email</i>laurahantz54@gmail.com</a>
+                      <a type="button" <a href="tel:0649279131" class="btn btn-pink btn-lg btn-block"><i class="material-icons">phone_iphone</i>0649279131</a>
+                      <a type="button" <a href="https://www.linkedin.com/in/laura-hantz/" class="btn btn-pink btn-lg btn-block"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+               </div>
             </div>
           </div>
         </header>
@@ -143,7 +163,7 @@
         <div class="row justify-content-center">
             <span>Partager ce CV sur : </span>
           <ul class="socialIcons">
-            <li><a href="#"><i class="fab fa-facebook-f fa-lg pink-text mr-md-5 mr-3 fa-1x"> <em> facebook</em></i></a></li>
+            <li><a href="#"><i href="https://wwww.facebook.com/bambinsbeauteetfutilite/" class="fab fa-facebook-f fa-lg pink-text mr-md-5 mr-3 fa-1x"> <em>facebook</em></i></a></li>
             <li><a href="#"><i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-1x"> <em>twitter</em></i></a></li>
             <li><a href="#"><i class="fab fa-linkedin-in fa-lg mr-md-5 mr-3 fa-1x"> <em> linkedin</em></i></a></li>
           </ul>
@@ -152,11 +172,9 @@
       </div>
     </footer>
 
-    <script  src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="js/app.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
